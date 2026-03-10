@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "c:\TOOLS\kbdownload\html_to_word.py", line 99, in <module>
+    main()
+  File "c:\TOOLS\kbdownload\html_to_word.py", line 92, in main
+    add_html_as_altchunk(doc, str(html))
+  File "c:\TOOLS\kbdownload\html_to_word.py", line 47, in add_html_as_altchunk
+    html_part = doc.part.package.part_factory(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Package' object has no attribute 'part_factory'
