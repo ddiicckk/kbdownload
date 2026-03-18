@@ -1,9 +1,6 @@
-Traceback (most recent call last):
-  File "c:\TOOLS\kbdownload\html_to_word.py", line 99, in <module>
-    main()
-  File "c:\TOOLS\kbdownload\html_to_word.py", line 92, in main
-    add_html_as_altchunk(doc, str(html))
-  File "c:\TOOLS\kbdownload\html_to_word.py", line 47, in add_html_as_altchunk
-    html_part = doc.part.package.part_factory(
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'Package' object has no attribute 'part_factory'
+ File "pandas/_libs/parsers.pyx", line 574, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 663, in pandas._libs.parsers.TextReader._get_header
+  File "pandas/_libs/parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas/_libs/parsers.pyx", line 2053, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa0 in position 439: invalid start byte
